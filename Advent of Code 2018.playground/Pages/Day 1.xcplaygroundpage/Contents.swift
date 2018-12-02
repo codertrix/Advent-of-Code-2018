@@ -1,4 +1,4 @@
-//: [Previous](@previous) [Next](@next)
+//: [Previous](@previous) | [Next](@next)
 //: ## Day 1
 //: ---
 //: ### Prepare Input Values
@@ -10,6 +10,7 @@ let inputValues = input.split(separator: "\n").compactMap { Int($0) }
 //: ---
 //: ### Puzzle 1
 let result = inputValues.reduce(0) { $0 + $1 }
+result
 //: ---
 //: ### Puzzle 2
 var frequencies: Set = [0]
@@ -24,6 +25,8 @@ endlessLoop: while true {
         frequencies.insert(frequency)
     }
 }
+
+frequency
 //: ---
 //: ### Results
 print("Puzzle 1 - The resulting frequency is: \(result)")
