@@ -9,4 +9,6 @@
  [Inventory Management System](https://adventofcode.com/2018/day/2)
  ## [Day 3](Day%203)
  [No Matter How You Slice It](https://adventofcode.com/2018/day/3)
+ ## [Day 4](Day%204)
+ [Repose Record](https://adventofcode.com/2018/day/4)
 */
