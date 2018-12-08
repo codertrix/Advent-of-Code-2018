@@ -11,8 +11,12 @@
  [No Matter How You Slice It](https://adventofcode.com/2018/day/3)
  ## [Day 4](Day%204)
  [Repose Record](https://adventofcode.com/2018/day/4)
- ## [Day 5](Day%205)
+
+ For performance reasons, starting with day 5, the puzzles are implemented as command line tools. See the corresponding targets.
+ ## Day 5
  [Alchemical Reduction](https://adventofcode.com/2018/day/5)
- ## [Day 6](Day%206)
+ ## Day 6
  [Chronal Coordinates](https://adventofcode.com/2018/day/6)
+ ## Day 7
+ [The Sum of Its Parts](https://adventofcode.com/2018/day/7)
 */

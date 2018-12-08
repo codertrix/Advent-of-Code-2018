@@ -41,13 +41,13 @@ for y in 0...maxY {
     }
 }
 
+
 // --------------------
 //   MARK: - Puzzle 1
 // --------------------
 
 let largestArea = coordinates.filter { $0.isFinite }.max { $0.areaSize < $1.areaSize }?.areaSize
 print("Puzzle 1 - The largest size is: \(largestArea!)")
-
 
 
 // --------------------
