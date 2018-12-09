@@ -19,4 +19,6 @@
  [Chronal Coordinates](https://adventofcode.com/2018/day/6)
  ## Day 7
  [The Sum of Its Parts](https://adventofcode.com/2018/day/7)
+ ## Day 8
+ [Memory Maneuver](https://adventofcode.com/2018/day/8)
 */
