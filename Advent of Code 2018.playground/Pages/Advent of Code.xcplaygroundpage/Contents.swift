@@ -21,4 +21,6 @@
  [The Sum of Its Parts](https://adventofcode.com/2018/day/7)
  ## Day 8
  [Memory Maneuver](https://adventofcode.com/2018/day/8)
+ ## Day 9
+ [Marble Mania](https://adventofcode.com/2018/day/9)
 */
