@@ -23,4 +23,6 @@
  [Memory Maneuver](https://adventofcode.com/2018/day/8)
  ## Day 9
  [Marble Mania](https://adventofcode.com/2018/day/9)
+ ## Day 10
+ [The Stars Align](https://adventofcode.com/2018/day/10)
 */
