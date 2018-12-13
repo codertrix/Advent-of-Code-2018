@@ -27,4 +27,6 @@
  [The Stars Align](https://adventofcode.com/2018/day/10)
  ## Day 11
  [Chronal Charge](https://adventofcode.com/2018/day/11)
+ ## Day 12
+ [Subterranean Sustainability](https://adventofcode.com/2018/day/12)
 */
