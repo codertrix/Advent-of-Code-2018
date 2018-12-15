@@ -31,4 +31,6 @@
  [Subterranean Sustainability](https://adventofcode.com/2018/day/12)
  ## Day 13
  [Mine Cart Madness](https://adventofcode.com/2018/day/13)
+ ## Day 14
+ [Chocolate Charts](https://adventofcode.com/2018/day/14)
 */
