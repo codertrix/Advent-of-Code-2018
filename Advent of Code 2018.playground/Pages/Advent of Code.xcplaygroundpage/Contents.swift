@@ -29,4 +29,6 @@
  [Chronal Charge](https://adventofcode.com/2018/day/11)
  ## Day 12
  [Subterranean Sustainability](https://adventofcode.com/2018/day/12)
+ ## Day 13
+ [Mine Cart Madness](https://adventofcode.com/2018/day/13)
 */
