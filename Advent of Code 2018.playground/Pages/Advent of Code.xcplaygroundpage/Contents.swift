@@ -39,4 +39,6 @@
  [Chronal Classification](https://adventofcode.com/2018/day/16)
  ## Day 17
  [Reservoir Research](https://adventofcode.com/2018/day/17)
+ ## Day 18
+ [Settlers of The North Pole](https://adventofcode.com/2018/day/18)
 */
