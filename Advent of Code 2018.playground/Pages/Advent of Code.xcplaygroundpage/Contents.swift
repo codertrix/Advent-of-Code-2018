@@ -37,4 +37,6 @@
  [Beverage Bandits](https://adventofcode.com/2018/day/15)
  ## Day 16
  [Chronal Classification](https://adventofcode.com/2018/day/16)
+ ## Day 17
+ [Reservoir Research](https://adventofcode.com/2018/day/17)
 */
