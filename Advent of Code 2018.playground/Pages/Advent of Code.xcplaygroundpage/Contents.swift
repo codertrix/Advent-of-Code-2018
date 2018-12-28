@@ -41,4 +41,6 @@
  [Reservoir Research](https://adventofcode.com/2018/day/17)
  ## Day 18
  [Settlers of The North Pole](https://adventofcode.com/2018/day/18)
+ ## Day 19
+ [Go With The Flow](https://adventofcode.com/2018/day/19)
 */
