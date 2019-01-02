@@ -43,4 +43,6 @@
  [Settlers of The North Pole](https://adventofcode.com/2018/day/18)
  ## Day 19
  [Go With The Flow](https://adventofcode.com/2018/day/19)
+ ## Day 20
+ [A Regular Map](https://adventofcode.com/2018/day/20)
 */
