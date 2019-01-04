@@ -6,10 +6,10 @@ enum Opcode: String {
 
 struct CPU {
     var register = [0, 0, 0, 0, 0, 0]
+    var instructionPointer = 0
 
     private var program = [(opcode: Opcode?, A: Int, B: Int, C: Int)]()
     private var ip = -1
-    private var instructionPointer = 0
 
     init(program: String) {
         for programLine in program.split(separator: "\n").map({ String($0) }) {
@@ -72,9 +72,9 @@ struct CPU {
 // --------------------
 
 var cpu = CPU(program: input)
-cpu.run()
+cpu.runUntil(instructionPointer: 28)
 
-print("Puzzle 1 - The value left in register 0 starting with value 0 is: \(cpu.register[0])")
+print("Puzzle 1 - The value for register 0 is: \(cpu.register[1])")
 
 
 // --------------------
@@ -82,23 +82,21 @@ print("Puzzle 1 - The value left in register 0 starting with value 0 is: \(cpu.r
 // --------------------
 
 cpu = CPU(program: input)
-cpu.register[0] = 1
-cpu.runUntil(instructionPointer: 3)
+var values: Set<Int> = []
+var currentValue = 0
+var lastValue = 0
 
-var divider: Set<Int> = []
-var number = 1
+while true {
+    cpu.runUntil(instructionPointer: 28)
+    currentValue = cpu.register[1]
 
-while !divider.contains(number) {
-    let result = cpu.register[3] / number
-
-    if cpu.register[3] % number == 0 {
-        divider.insert(number)
-        divider.insert(result)
+    if values.contains(currentValue) {
+        break
     }
 
-    number += 1
+    values.insert(currentValue)
+    lastValue = currentValue
+    cpu.instructionPointer = 6
 }
 
-cpu.register[0] = divider.reduce(0, +)
-
-print("Puzzle 2 - The value left in register 0 starting with value 1 is: \(cpu.register[0])")
+print("Puzzle 2 - The value for register 0 is: \(lastValue)")

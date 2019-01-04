@@ -45,4 +45,6 @@
  [Go With The Flow](https://adventofcode.com/2018/day/19)
  ## Day 20
  [A Regular Map](https://adventofcode.com/2018/day/20)
+ ## Day 21
+ [Chronal Conversion](https://adventofcode.com/2018/day/21)
 */
