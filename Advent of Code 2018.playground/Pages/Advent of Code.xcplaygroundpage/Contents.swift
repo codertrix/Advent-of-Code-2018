@@ -47,4 +47,6 @@
  [A Regular Map](https://adventofcode.com/2018/day/20)
  ## Day 21
  [Chronal Conversion](https://adventofcode.com/2018/day/21)
+ ## Day 22
+ [Mode Maze](https://adventofcode.com/2018/day/22)
 */
