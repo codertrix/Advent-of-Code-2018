@@ -49,7 +49,7 @@ func playMarbleGame(playerCount: Int, marbleCount: Int) -> Int {
     }
 
     // Prevent a memory leak
-    currentMarble.prevMarble.nextMarble = nil
+    // currentMarble.prevMarble.nextMarble = nil
 
     return playerScores.max()!
 }

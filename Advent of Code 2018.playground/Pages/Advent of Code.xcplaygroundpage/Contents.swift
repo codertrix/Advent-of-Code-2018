@@ -49,4 +49,10 @@
  [Chronal Conversion](https://adventofcode.com/2018/day/21)
  ## Day 22
  [Mode Maze](https://adventofcode.com/2018/day/22)
+ ## Day 23
+ [Experimental Emergency Teleportation](https://adventofcode.com/2018/day/23)
+ ## Day 24
+ [Immune System Simulator 20XX](https://adventofcode.com/2018/day/24)
+ ## Day 25
+ [Four-Dimensional Adventure](https://adventofcode.com/2018/day/25)
 */
